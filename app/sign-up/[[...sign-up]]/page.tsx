@@ -16,7 +16,7 @@ const SignUpWrapper = styled.div`
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    margin-bottom: 350px; /* Ajusta este valor según sea necesario */
+    margin-bottom: 100px; 
 `;
 
 function Page() {

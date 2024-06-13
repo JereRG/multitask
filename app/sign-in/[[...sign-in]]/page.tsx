@@ -16,18 +16,19 @@ const SignInWrapper = styled.div`
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    margin-bottom: 250px; /* Ajusta este valor según lo necesario */
 `;
 
 function Page() {
     return (
-        <Container>
-            <Navbar />
-            <SignInWrapper>
-                <SignIn />
-            </SignInWrapper>
-            <Footer />
-        </Container>
+        <>
+            <Container>
+                <Navbar />
+                <SignInWrapper>
+                    <SignIn />
+                </SignInWrapper>
+                <Footer />
+            </Container>
+        </>
     );
 }
 
